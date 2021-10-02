@@ -109,29 +109,22 @@ footer {
   flex-direction: column;
 }
 
-h5 {
-  color: whitesmoke;
-  font-size: 15px;
-  padding: 20px;
-}
-
 footer ol {
   display: flex;
   gap: 10px;
 }
 
-footer li {
-  list-style: none;
-  
-}
 footer img {
   height: 40px;
   width: 40px;
   filter: drop-shadow(1px 1px 2px black);
 }
 
-footer p {
-  color: white;
-  padding: 15px;
+footer img:hover {
+  opacity: 0.5;
 }
+
+/*************************************************************/
+/***********************media query***************************/
+/*************************************************************/
 

@@ -70,3 +70,18 @@ aside p {
 }
 
 /******************footer**********************/
+
+h5 {
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 20px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer p {
+  color: white;
+  padding: 15px;
+}
