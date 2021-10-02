@@ -37,3 +37,19 @@ section {
   height: 30%;
 }
 
+main {
+  background-color: #0d1917;
+  height: 40%;
+}
+
+article {
+
+}
+
+h2, h3 {
+  color: whitesmoke;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
