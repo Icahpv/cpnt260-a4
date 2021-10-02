@@ -24,6 +24,7 @@ nav ul {
   gap: 30px;
   list-style: none;
 }
+/*****************hero section***********************/
 
 section {
   display: flex;
@@ -35,21 +36,72 @@ section {
   background-repeat: inherit;
   background-size: cover;
   height: 30%;
+  overflow: hidden;
 }
 
+/*************************content*****************************/
+
 main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
   background-color: #0d1917;
-  height: 40%;
+  height: auto;
+  overflow-x: hidden;
 }
 
 article {
-
+  max-width: 100%;
 }
 
-h2, h3 {
-  color: whitesmoke;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 30px;
-  padding: 20px;
+article p {
+  background-color: whitesmoke;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
   text-align: center;
 }
+
+figure {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  object-fit: contain;
+  grid-gap: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+figure img {
+  height: 80%;
+  width: 70%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px black;
+}
+
+
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+iframe {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/******************footer***********************/
+
+footer {
+  height: 20%;
+  background-color: #080f15;
+}
+

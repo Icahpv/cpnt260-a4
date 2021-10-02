@@ -21,6 +21,18 @@ h1 {
   font-family: 'Abril Fatface', cursive;
 }
 
+/******************content**********************/
+
+h2, h3, h4 {
+  color: whitesmoke;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 2px 2px 3px black;
+}
+
+
 section p {
   font-size: 15px;
   color: whitesmoke;
@@ -43,3 +55,18 @@ section a {
 section a:hover {
   background-color: gray;
 }
+
+figure img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+aside p {
+  color: whitesmoke;
+  padding: 10px;
+  text-align: justify;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/******************footer**********************/
