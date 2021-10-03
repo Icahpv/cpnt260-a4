@@ -19,9 +19,12 @@
   <logo>
     <img src="assets/icons/plant.png" alt="plantpot">
   </logo>
-<div class="burger"><img src="assets/icons/hamburger-menu.png" alt="hamburger"></div>
-  <nav>
-    
+
+
+<div class="burger" onclick="openNav()"><img src="assets/icons/hamburger-menu.png" alt="hamburger"></div>
+  
+
+<nav>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Shop</a></li>
@@ -29,6 +32,23 @@
       <li><a href="#">Gallery</a></li>
     </ul>
   </nav>
+
+
+<script>
+function openNav() {
+  const menu = document.getElementById("nav");
+    menu.style.width = "250px";
+    menu.style.right = "0";
+  nav.style.display = "block";
+}
+
+function closeNav() {
+  const menu = document.getElementById("nav")
+  menu.style.display = "none";
+}
+</script>
+
+
 </header>
 <section>
   <h1>Plantita</h1>
