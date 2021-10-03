@@ -110,8 +110,7 @@ aside {
 iframe {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 /******************footer***********************/

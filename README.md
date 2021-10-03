@@ -33,6 +33,9 @@ Landing Page with a Hero Section
 
 ### Problems Encountered
 
+1. Hamburger Slider: could not get the slider menu to work as it needs javascript.
+
+
 
 
 
