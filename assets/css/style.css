@@ -19,6 +19,21 @@ header {
   padding-right: 10px;
 }
 
+.burger img {
+  filter: invert(1);
+  height: 40px;
+  width: 40px;
+}
+
+.burger img:hover {
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 2px black);
+}
+
+nav {
+  display: none;
+}
+
 nav ul {
   display: flex;
   gap: 30px;
@@ -49,6 +64,7 @@ main {
   background-color: #0d1917;
   height: auto;
   overflow-x: hidden;
+  padding: 10px;
 }
 
 article {
@@ -61,6 +77,8 @@ article p {
   border-radius: 10px;
   font-size: 14px;
   text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 figure {
@@ -80,8 +98,6 @@ figure img {
   border-radius: 15px;
   box-shadow: 2px 2px 3px black;
 }
-
-
 
 aside {
   display: flex;
@@ -127,4 +143,18 @@ footer img:hover {
 /*************************************************************/
 /***********************media query***************************/
 /*************************************************************/
+
+@media screen and (min-width: 600px) {
+.burger img {
+  display: none;
+}
+nav {
+  display: initial;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
 
