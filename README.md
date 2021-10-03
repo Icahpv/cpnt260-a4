@@ -36,7 +36,7 @@ Landing Page with a Hero Section
 
 ##### Attributions
 Ashlyn Knox: I used her codepen media-query project as a reference.
-Jessica Watson: For suggesting I use div instead of logo to get rid of my error.
+Jessica Watson: For suggesting I use div instead of logo to get rid of my error. Also helped me with google api.
 
 
 
