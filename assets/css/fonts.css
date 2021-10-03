@@ -71,10 +71,12 @@ aside p {
 
 /******************footer**********************/
 
-h5 {
+.follow {
   color: whitesmoke;
-  font-size: 15px;
+  font-size: 20px;
   padding: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
 }
 
 footer li {
@@ -82,6 +84,6 @@ footer li {
 }
 
 footer p {
-  color: white;
+  color: olive;
   padding: 15px;
 }

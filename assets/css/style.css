@@ -81,14 +81,17 @@ article p {
   margin-right: 50px;
 }
 
-figure {
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-items: center;
   object-fit: contain;
-  grid-gap: 10px;
-  padding: 20px;
   margin-top: 30px;
+}
+
+figure {
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
 figure img {
@@ -147,6 +150,7 @@ footer img:hover {
 .burger img {
   display: none;
 }
+
 nav {
   display: initial;
 }

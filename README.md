@@ -1,7 +1,7 @@
 # cpnt260-a4
 Landing Page with a Hero Section
 
-# About the Company
+## About the Company
 
 **Company Name:** Plantita
 **Nature of business:** Florist/Plant Shop
@@ -9,13 +9,13 @@ Landing Page with a Hero Section
 **Github Link:** 
 **Github Pages:**
 
-## Assets Used
+### Assets Used
 
 **Pictures**
-- Hero Section Image: Photo by sohail na from Pexels (https://www.pexels.com/@sohail-na-266917)
-- Content Image: Photo by Valeria Boltneva from Pexels (https://www.pexels.com/@valeriya)
-- Succulents - Photo by Ylanite Koppens from Pexels  (https://www.pexels.com/@nietjuh)
-- Pink Flowers - Photo by Irina Iriser from Pexels (https://www.pexels.com/@iriser)
+- Hero Section Image: [Leaves] (https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) by [sohail na] from Pexels (https://www.pexels.com/@sohail-na-266917)
+- [Succulents] (https://images.pexels.com/photos/1470171/pexels-photo-1470171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) by [Element5] from Pexels (https://www.pexels.com/@element5)
+- [Succulents] (https://images.pexels.com/photos/1906439/pexels-photo-1906439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) Photo by [Ylanite Koppens] from Pexels  (https://www.pexels.com/@nietjuh)
+- [Pink-Flowers] (https://images.pexels.com/photos/1408221/pexels-photo-1408221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) Photo by [Irina Iriser] from Pexels (https://www.pexels.com/@iriser)
 
 
 **Icons**
@@ -23,28 +23,22 @@ Landing Page with a Hero Section
 - Instagram (Icons8)
 - Twitter (Icons8)
 
-
 **Fonts:**
+[Google Fonts]
+- Abril Fatface (https://fonts.google.com/specimen/Abril+Fatface?query=Abril+Fatface)
+- Roboto (https://fonts.google.com/specimen/Roboto?query=roboto)
 
-
-**Color Scheme:**
-
-
-
-### Problems Encountered
+#### Problems Encountered
 
 1. Hamburger Slider: could not get the slider menu to work as it needs javascript.
+2. Contact page: I had a hard time on editing it as I do not understand much how the codes were built.
 
 
+##### Attributions
+Ashlyn Knox: I used her codepen media-query project as a reference.
 
 
-
-
-
-#### Attributions
-
-
-##### License
+###### License
 [MIT]https://choosealicense.com/licenses/mit/
 
 

@@ -19,36 +19,17 @@
   <logo>
     <img src="assets/icons/plant.png" alt="plantpot">
   </logo>
-
-
-<div class="burger" onclick="openNav()"><img src="assets/icons/hamburger-menu.png" alt="hamburger"></div>
-  
-
-<nav>
+  <div class="burger">
+    <img src="assets/icons/hamburger-menu.png" alt="hamburger menu">
+    </div>
+  <nav>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Shop</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="#">Gallery</a></li>
+      <li><a href="contact.html"  target="_blank">Contact</a></li>
+      <li><a href="#">Location</a></li>
     </ul>
   </nav>
-
-
-<script>
-function openNav() {
-  const menu = document.getElementById("nav");
-    menu.style.width = "250px";
-    menu.style.right = "0";
-  nav.style.display = "block";
-}
-
-function closeNav() {
-  const menu = document.getElementById("nav")
-  menu.style.display = "none";
-}
-</script>
-
-
 </header>
 <section>
   <h1>Plantita</h1>
@@ -57,19 +38,17 @@ function closeNav() {
 </section>
 <main>
   
-  <article>
+<article>
     <h2>About Plantita</h2>
   <p><strong>Plantita</strong> is a plant shop located in the heart of <em>downtown Calgary</em>, all our plants are locally sourced if not grown in our very own green house, we have a variety of winter surviving plants to the tropical feels plants. Here at Plantita we have experienced staff who has jungles of their own, whether you’re a beginner plant parent or experienced, our staff can give you loads of information wit your plant journey… and if they can’t we have our handy dandy, <strong>plantbook!</strong></p>
     <h3>DIY Classes</h3>
-  <p>It ain't a party without a plant jungle! We host DIY classes here in our shop, this can be booked as corporate, birthday parties or date nights! All you have to do is sign our contact form and give us details about your event!</p>
-  <figure>
-      <img src="assets/images/succulents.jpg" alt="another succulent">
-      <img src="assets/images/more-succulents.jpg" alt="succulents">
-      <img src="assets/images/pink-flower.jpg" alt="pink flower">
-    </figure>
+  <p><strong>It ain't a party without a plant jungle!</strong> We host DIY classes here in our shop, this can be booked as corporate, birthday parties or date nights! All you have to do is sign our contact form and give us details about your event!</p>
+  <div class="cards">
+      <figure><img src="assets/images/succulents.jpg" alt="another succulent"></figure>
+      <figure><img src="assets/images/more-succulents.jpg" alt="succulents"></figure>
+      <figure><img src="assets/images/pink-flower.jpg" alt="pink flower"></figure>
+  </div>
 </article>
-  
-
   <aside>
     <h4>Location</h4>
       <p>205 5th Avenue SW, T2P 2V7</p>
@@ -88,7 +67,7 @@ function closeNav() {
 </main>
 
 <footer>
-  <h5>Follow Us On Social Media!</h5>
+  <p class="follow">Follow Us On Social Media!</p>
   <ol>
     <li><a href="www.facebook.com"><img src="assets/icons/fb.png" alt="facebook"></a></li>
     <li><a href="www.instagram.com"><img src="assets/icons/ig.png" alt="instagram"></a></li>
